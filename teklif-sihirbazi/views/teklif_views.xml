@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+<odoo>
+
+    <record id="teklif_form" model="ir.ui.view">
+        <field name="name">teklif.model.form</field>
+        <field name="model">teklif.model</field>
+        <field name="arch" type="xml">
+          <form>
+              <sheet>
+                  <group>
+                      <group>
+                        <field name="name"></field>
+                      </group>
+
+                  </group>
+              </sheet>
+          </form>
+        </field>
+    </record>
+
+    <record id="teklif_action" model="ir.actions.act_window">
+        <field name="name">Teklifler</field>
+        <field name="res_model">teklif.model</field>
+        <field name="view_mode">tree,form</field>
+        <field name="help" type="html">
+          <p class="o_view_nocontent_smiling_face">
+            Define a new lost reason
+          </p><p>
+            Use lost reasons to explain why an opportunity is lost.
+          </p><p>
+            Some examples of lost reasons: "We don't have people/skill", "Price too high"
+          </p>
+        </field>
+    </record>
+	
+	 <!-- <record id="menu_teklif" model="ir.ui.menu"> -->
+        <!-- <field name="action" ref="teklif_action"/> -->
+    <!-- </record> -->
+</odoo>
