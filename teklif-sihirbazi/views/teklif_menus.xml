@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<odoo>
-        <menuitem id="teklif_menu_root" name="Teklif Sihirbazı" web_icon="teklif-sihirbazi,static/description/icon.png">
-            <menuitem id="test_first_level_menu" name="Teklif Sihirbazı" action="teklif_action"/>
-
-
-        </menuitem>
-</odoo>
